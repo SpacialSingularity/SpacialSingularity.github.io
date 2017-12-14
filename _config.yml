@@ -2,13 +2,13 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://spacialsingularity.github.io/
+url: https://spacialsingularity.github.io
 date_format: "ordinal"
-title: TEST
-subtitle: "TESTTEST"
-description: "TESTTESTTEST"
-keywords: TEST
-timezone: TEST/TEST
+title: A Blog Without Any Purpose
+subtitle: "Arbitrary things I want to post."
+description: "I came to this world two years ago."
+keywords: World, Science and Technology, Physics and My Life
+timezone: China/Somewhere
 encoding: "utf-8"
 side_bar_repo_limit: 5
 
@@ -91,17 +91,17 @@ disqus:
     username: 
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: spacialsingularity
-    repo: blog-comment
-    oauth:
-        client_id: eacf111864e2dd650fa3
-        client_secret: 892c192e823927e83f3aa501ecf882f449d830f3
-# https://github.com/gitalk/gitalk#install
-gitalk:
     owner: 
     repo: 
-    clientID: 
-    clientSecret: 
+    oauth:
+        client_id: 
+        client_secret: 
+# https://github.com/gitalk/gitalk#install
+gitalk:
+    owner: spacialsingularity
+    repo: blog-comment
+    clientID: 1593ea750cb5c56ca050
+    clientSecret: 805cd187d42ffaae233ab022662e0433d4fe4d00
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
